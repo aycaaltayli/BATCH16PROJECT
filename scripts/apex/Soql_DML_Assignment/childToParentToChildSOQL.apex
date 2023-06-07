@@ -1,0 +1,2 @@
+ChildToParentToChildSOQL.childToParent();
+ChildToParentToChildSOQL.parentToChild();

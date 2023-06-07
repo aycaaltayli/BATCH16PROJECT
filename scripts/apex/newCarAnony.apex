@@ -1,0 +1,11 @@
+NewCar nc = new NewCar();
+nc.startCar('AUDI', 'Q8');
+nc.Accelerate(60);
+nc.checkSpeed();
+nc.brake(30);
+nc.checkSpeed();
+nc.Accelerate(20);
+nc.checkSpeed();
+nc.brake(10);
+nc.checkSpeed();
+nc.stopCar();

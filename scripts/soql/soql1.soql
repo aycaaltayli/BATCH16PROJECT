@@ -1,0 +1,8 @@
+select id, name, phone, website, Active__c from account
+
+
+Setup Link
+https://abcde62-dev-ed.develop.lightning.force.com/packaging/installPackage.apexp?p0=04tDo000000HsDx
+
+
+packaging/installPackage.apexp?p0=04tDo000000HsDx
