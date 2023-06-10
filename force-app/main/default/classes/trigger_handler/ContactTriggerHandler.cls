@@ -21,7 +21,7 @@ public class ContactTriggerHandler {
         for (contact newContact : cTriggerNew) {
             //validate if lead source is uptaded
             if (newContact.LeadSource != cTriggerOldMap.get(newContact.Id).LeadSource) {
-                newContact.LeadSource.addError('Cannot update LeadSouce!');
+                newContact.LeadSource.addError(system.label.contactValidation2);
             }
         }
  }

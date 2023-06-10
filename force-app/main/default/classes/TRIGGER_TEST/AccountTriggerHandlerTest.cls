@@ -96,4 +96,14 @@ public class AccountTriggerHandlerTest {
             assert.areEqual(true, c.vip__c);
         }
     }
+    @istest
+    private static void testDelete(){
+        List<account> listAcc = new list<account>{
+            new account(name = 'May', phone = '7775556666', Industry = 'Energy'),
+            new account(name = 'June'),
+            new account(name = 'Sunday', Industry = 'Energy')
+        };
+        insert listAcc;
+        delete listAcc;
+    }
 }
